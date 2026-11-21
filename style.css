@@ -36,3 +36,8 @@ h2 { margin: 0 0 20px; font-size: 22px; line-height: 30px; }
   .hero { padding: 48px 48px 40px; }
   h1 { font-size: 56px; line-height: 60px; }
 }
+
+.contact-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 16px 0 0; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: 999px; background: var(--teal); color: var(--ink); font-weight: 600; text-decoration: none; }
+.btn-alt { background: var(--sand); }
+.btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
